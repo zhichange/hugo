@@ -22,14 +22,22 @@ jobs:
 
       - name: Build Site
         run: |
-          cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://zhichange.github.io/hugo/
+          # Create a temporary Hugo site
+          mkdir -p /tmp/hugo-site
+          cp -R exampleSite/* /tmp/hugo-site/
+          # Copy theme layouts and static files into the site
+          cp -r layouts /tmp/hugo-site/
+          cp -r static /tmp/hugo-site/
+          cp -r data /tmp/hugo-site/
+          # Build the site
+          cd /tmp/hugo-site
+          hugo --baseURL https://zhichange.github.io/hugo/
 
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: /tmp/hugo-site/public
           publish_branch: gh-pages
           force_orphan: true
           full_commit_message: ${{ github.event.head_commit.message }}
