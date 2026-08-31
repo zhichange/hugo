@@ -53,37 +53,7 @@
 - 增加了搜索功能，以及下拉的热词选项（基于百度 API）。
 - 增加了一言、和风天气的 API。
 
-### 使用说明
 
-这是一个开源的公益项目，你可以拿来制作自己的网址导航，也可以做与导航无关的网站。
-
-WebStack 有非常多的魔改版本，这是其中一个。如果你对本主题进行了一些个性化调整，欢迎在本项目留下你的 [分享](https://github.com/shenweiyan/WebStack-Hugo/issues/10)！
-
-
-### 安装说明
-
-关于 Windows/Linux 下详细的安装与使用说明，请参考文档《WebStack-Hugo | 一个静态响应式导航主题》。
-
-- [链接1](https://weiyan.cc/tech/discussions-10/) | [链接2](https://github.com/shenweiyan/Digital-Garden/discussions/10)
-
-### 感谢
-
-本主题的部分代码参考了以下几个开源项目，特此感谢。
-
-- [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
-- [liutongxu/liutongxu.github.io](https://github.com/liutongxu/liutongxu.github.io)
-- [iplaycode/webstack-hugo](https://github.com/iplaycode/webstack-hugo)
-
-感谢以下所有朋友对本主题所做出的贡献。  
-- [@yuanj82](https://github.com/yuanj82)        
-- [@yanbeiyinhanghang](https://github.com/yinhanghang)     
-- [@jetsung](https://github.com/jetsung)
-
-### 赞赏
-
-如果你觉得本项目对你有所帮助，欢迎请作者喝杯热咖啡 >.<
-
-![donate-wecaht-aliapy](https://kg.weiyan.cc/0000/img/donate.webp)
 
 ### Star History
 
